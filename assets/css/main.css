@@ -2973,7 +2973,8 @@
 
 					#header nav > ul > li a:not(.button) {
 						color: #fff;
-						display: inline-block;
+						/*display: inline-block;*/
+						display:none;
 						text-decoration: none;
 						border: 0;
 					}
@@ -3147,7 +3148,7 @@
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
-		padding: 12em 0 20em 0;
+		padding: 9em 0 20em 0;
 		text-align: center;
 	}
 
@@ -3160,9 +3161,9 @@
 		}
 
 		#banner h2 {
-			font-size: 3.5em;
+			font-size: 4.5em;
 			line-height: 1em;
-			margin: 0 0 0.5em 0;
+			margin: 0 0 0.0em 0;
 			padding: 0;
 		}
 
@@ -3282,7 +3283,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #4F4D8C;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
